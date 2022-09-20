@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3555214215686583704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3555214215686583707}
+  - component: {fileID: 3555214215686583685}
+  m_Layer: 0
+  m_Name: IslandGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3555214215686583707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555214215686583704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3555214215686583685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3555214215686583704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9aeb7732f78cf4281a9418baf68244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testMaterial: {fileID: 2100000, guid: 4c1cef4579bee044780aa7d8639a3f82, type: 2}
+  chunkSize: 16
+  chunkHeight: 64
+  gridX: 2
+  gridZ: 2
+  surfaceHeight: 32
+  caveThreshold: 0.45
+  multiplier: 0.065
+  heightScalar: 10
+  seed: 0
+  randomSeed: 1
+  regenerate: 0
+  itemManager: {fileID: 0}
+  chunkPrefab: {fileID: 5048871710365262267, guid: 78421889cf2975d4bad911577fb11a04, type: 3}

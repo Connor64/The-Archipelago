@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad264c09ae2ae9641a55e69a4b1d1414, type: 3}
+  m_Name: ItemManager
+  m_EditorClassIdentifier: 
+  crops:
+  - itemType: 0
+    itemName: Tomato
+    sprites:
+    - {fileID: 21300000, guid: b633a62f99021234489f4d094f6b69b9, type: 3}
+    - {fileID: 21300000, guid: 181d8af9fc64af845b71bbdbbc658aef, type: 3}
+    - {fileID: 21300000, guid: 31d2fa97fc817a54fada78c5ee719d99, type: 3}
+    maxQuantity: 16
+    spawnable: 1
+    description: 'Tomato:
+
+      The tomato is the edible berry of the plant Solanum
+      lycopersicum, commonly known as the tomato plant.'
+    timeToMaturity: 10
+    value: 5
+  - itemType: 0
+    itemName: Corn
+    sprites:
+    - {fileID: 21300000, guid: d065000a172f6a94c866a02e264692dc, type: 3}
+    - {fileID: 21300000, guid: 63830f8e3f4b9574d911a06c844e3bc6, type: 3}
+    - {fileID: 21300000, guid: f04765d092a83dd40b0dd8a7afc9ce9f, type: 3}
+    maxQuantity: 16
+    spawnable: 1
+    description: 'Corn:
+
+      The leafy stalk of the plant produces pollen inflorescences
+      and separate ovuliferous inflorescences called ears that when fertilized yield
+      kernels or seeds, which are fruits.'
+    timeToMaturity: 10
+    value: 7
+  tools:
+  - itemType: 1
+    itemName: Shovel
+    sprites:
+    - {fileID: 21300000, guid: 62a14000f15756445b46c8a814cdf09f, type: 3}
+    maxQuantity: 1
+    spawnable: 0
+    description: 'Shovel:
+
+      A gift from your great grandfather. It is rusted
+      in all the worst places...'
+    timeToMaturity: 0
+    value: 0
+  trash:
+  - itemType: 2
+    itemName: Stick
+    sprites:
+    - {fileID: 21300000, guid: 0c79022209378a2438746937f34ce862, type: 3}
+    maxQuantity: 64
+    spawnable: 1
+    description: 'Stick:
+
+      A worthless piece of matter... but oddly charming.'
+    timeToMaturity: 0
+    value: 0
+  itemObjectPrefab: {fileID: 4771121640893167500, guid: e918b21cf6c68294abd31ec8277d1185, type: 3}
